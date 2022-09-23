@@ -12,11 +12,11 @@ position: fixed;
 bottom: 0;
 
 .menu{
-
 margin: 0;
 display: flex;
 /* Works well with 100% width  */
-width: 100vw;
+width: 100%;
+max-width: 600px;
 font-size: 1.5em;
 padding: 0 5vw;
 position: relative;
@@ -116,7 +116,9 @@ a {
     font-size: .8em;
 }
 }
-
+width: 100%;
+max-width: 600px;
+margin-bottom: -5px;
 `;
 
 export default FooterStyle;
